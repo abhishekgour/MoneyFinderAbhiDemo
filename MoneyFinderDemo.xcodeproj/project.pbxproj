@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		597010F5193C6D6B007DB0D1 /* dipped-corner-border.png in Resources */ = {isa = PBXBuildFile; fileRef = 597010F4193C6D6B007DB0D1 /* dipped-corner-border.png */; };
+		598CF30B1939B69300FEF268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598CF30A1939B69300FEF268 /* Foundation.framework */; };
+		598CF30D1939B69300FEF268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598CF30C1939B69300FEF268 /* CoreGraphics.framework */; };
+		598CF30F1939B69300FEF268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598CF30E1939B69300FEF268 /* UIKit.framework */; };
+		598CF3151939B69300FEF268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 598CF3131939B69300FEF268 /* InfoPlist.strings */; };
+		598CF3171939B69300FEF268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 598CF3161939B69300FEF268 /* main.m */; };
+		598CF31B1939B69300FEF268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 598CF31A1939B69300FEF268 /* AppDelegate.m */; };
+		598CF31D1939B69300FEF268 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598CF31C1939B69300FEF268 /* Images.xcassets */; };
+		598CF3241939B69300FEF268 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598CF3231939B69300FEF268 /* XCTest.framework */; };
+		598CF3251939B69300FEF268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598CF30A1939B69300FEF268 /* Foundation.framework */; };
+		598CF3261939B69300FEF268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598CF30E1939B69300FEF268 /* UIKit.framework */; };
+		598CF32E1939B69300FEF268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 598CF32C1939B69300FEF268 /* InfoPlist.strings */; };
+		598CF3301939B69300FEF268 /* MoneyFinderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 598CF32F1939B69300FEF268 /* MoneyFinderDemoTests.m */; };
+		598CF3401939B6D800FEF268 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 598CF33E1939B6D800FEF268 /* MainScreen.m */; };
+		598CF3411939B6D800FEF268 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598CF33F1939B6D800FEF268 /* MainScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		598CF3271939B69300FEF268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598CF2FF1939B69300FEF268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 598CF3061939B69300FEF268;
+			remoteInfo = MoneyFinderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		597010F4193C6D6B007DB0D1 /* dipped-corner-border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dipped-corner-border.png"; sourceTree = "<group>"; };
+		598CF3071939B69300FEF268 /* MoneyFinderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFinderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598CF30A1939B69300FEF268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		598CF30C1939B69300FEF268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		598CF30E1939B69300FEF268 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		598CF3121939B69300FEF268 /* MoneyFinderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyFinderDemo-Info.plist"; sourceTree = "<group>"; };
+		598CF3141939B69300FEF268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		598CF3161939B69300FEF268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		598CF3181939B69300FEF268 /* MoneyFinderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoneyFinderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		598CF3191939B69300FEF268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		598CF31A1939B69300FEF268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		598CF31C1939B69300FEF268 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		598CF3221939B69300FEF268 /* MoneyFinderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyFinderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		598CF3231939B69300FEF268 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		598CF32B1939B69300FEF268 /* MoneyFinderDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyFinderDemoTests-Info.plist"; sourceTree = "<group>"; };
+		598CF32D1939B69300FEF268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		598CF32F1939B69300FEF268 /* MoneyFinderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyFinderDemoTests.m; sourceTree = "<group>"; };
+		598CF33D1939B6D800FEF268 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		598CF33E1939B6D800FEF268 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		598CF33F1939B6D800FEF268 /* MainScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598CF3041939B69300FEF268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598CF30D1939B69300FEF268 /* CoreGraphics.framework in Frameworks */,
+				598CF30F1939B69300FEF268 /* UIKit.framework in Frameworks */,
+				598CF30B1939B69300FEF268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598CF31F1939B69300FEF268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598CF3241939B69300FEF268 /* XCTest.framework in Frameworks */,
+				598CF3261939B69300FEF268 /* UIKit.framework in Frameworks */,
+				598CF3251939B69300FEF268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598CF2FE1939B69300FEF268 = {
+			isa = PBXGroup;
+			children = (
+				598CF3101939B69300FEF268 /* MoneyFinderDemo */,
+				598CF3291939B69300FEF268 /* MoneyFinderDemoTests */,
+				598CF3091939B69300FEF268 /* Frameworks */,
+				598CF3081939B69300FEF268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598CF3081939B69300FEF268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598CF3071939B69300FEF268 /* MoneyFinderDemo.app */,
+				598CF3221939B69300FEF268 /* MoneyFinderDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598CF3091939B69300FEF268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				598CF30A1939B69300FEF268 /* Foundation.framework */,
+				598CF30C1939B69300FEF268 /* CoreGraphics.framework */,
+				598CF30E1939B69300FEF268 /* UIKit.framework */,
+				598CF3231939B69300FEF268 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		598CF3101939B69300FEF268 /* MoneyFinderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				597010F4193C6D6B007DB0D1 /* dipped-corner-border.png */,
+				598CF3391939B69800FEF268 /* Main Screen */,
+				598CF3191939B69300FEF268 /* AppDelegate.h */,
+				598CF31A1939B69300FEF268 /* AppDelegate.m */,
+				598CF31C1939B69300FEF268 /* Images.xcassets */,
+				598CF3111939B69300FEF268 /* Supporting Files */,
+			);
+			path = MoneyFinderDemo;
+			sourceTree = "<group>";
+		};
+		598CF3111939B69300FEF268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				598CF3121939B69300FEF268 /* MoneyFinderDemo-Info.plist */,
+				598CF3131939B69300FEF268 /* InfoPlist.strings */,
+				598CF3161939B69300FEF268 /* main.m */,
+				598CF3181939B69300FEF268 /* MoneyFinderDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		598CF3291939B69300FEF268 /* MoneyFinderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				598CF32F1939B69300FEF268 /* MoneyFinderDemoTests.m */,
+				598CF32A1939B69300FEF268 /* Supporting Files */,
+			);
+			path = MoneyFinderDemoTests;
+			sourceTree = "<group>";
+		};
+		598CF32A1939B69300FEF268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				598CF32B1939B69300FEF268 /* MoneyFinderDemoTests-Info.plist */,
+				598CF32C1939B69300FEF268 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		598CF3391939B69800FEF268 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				598CF33D1939B6D800FEF268 /* MainScreen.h */,
+				598CF33E1939B6D800FEF268 /* MainScreen.m */,
+				598CF33F1939B6D800FEF268 /* MainScreen.xib */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598CF3061939B69300FEF268 /* MoneyFinderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598CF3331939B69300FEF268 /* Build configuration list for PBXNativeTarget "MoneyFinderDemo" */;
+			buildPhases = (
+				598CF3031939B69300FEF268 /* Sources */,
+				598CF3041939B69300FEF268 /* Frameworks */,
+				598CF3051939B69300FEF268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyFinderDemo;
+			productName = MoneyFinderDemo;
+			productReference = 598CF3071939B69300FEF268 /* MoneyFinderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		598CF3211939B69300FEF268 /* MoneyFinderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598CF3361939B69300FEF268 /* Build configuration list for PBXNativeTarget "MoneyFinderDemoTests" */;
+			buildPhases = (
+				598CF31E1939B69300FEF268 /* Sources */,
+				598CF31F1939B69300FEF268 /* Frameworks */,
+				598CF3201939B69300FEF268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				598CF3281939B69300FEF268 /* PBXTargetDependency */,
+			);
+			name = MoneyFinderDemoTests;
+			productName = MoneyFinderDemoTests;
+			productReference = 598CF3221939B69300FEF268 /* MoneyFinderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598CF2FF1939B69300FEF268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					598CF3211939B69300FEF268 = {
+						TestTargetID = 598CF3061939B69300FEF268;
+					};
+				};
+			};
+			buildConfigurationList = 598CF3021939B69300FEF268 /* Build configuration list for PBXProject "MoneyFinderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 598CF2FE1939B69300FEF268;
+			productRefGroup = 598CF3081939B69300FEF268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598CF3061939B69300FEF268 /* MoneyFinderDemo */,
+				598CF3211939B69300FEF268 /* MoneyFinderDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598CF3051939B69300FEF268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598CF3151939B69300FEF268 /* InfoPlist.strings in Resources */,
+				598CF31D1939B69300FEF268 /* Images.xcassets in Resources */,
+				597010F5193C6D6B007DB0D1 /* dipped-corner-border.png in Resources */,
+				598CF3411939B6D800FEF268 /* MainScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598CF3201939B69300FEF268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598CF32E1939B69300FEF268 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598CF3031939B69300FEF268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598CF31B1939B69300FEF268 /* AppDelegate.m in Sources */,
+				598CF3171939B69300FEF268 /* main.m in Sources */,
+				598CF3401939B6D800FEF268 /* MainScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598CF31E1939B69300FEF268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598CF3301939B69300FEF268 /* MoneyFinderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		598CF3281939B69300FEF268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 598CF3061939B69300FEF268 /* MoneyFinderDemo */;
+			targetProxy = 598CF3271939B69300FEF268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		598CF3131939B69300FEF268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598CF3141939B69300FEF268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		598CF32C1939B69300FEF268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598CF32D1939B69300FEF268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598CF3311939B69300FEF268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nirnay Bansal (2N7T954T7P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nirnay Bansal (2N7T954T7P)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "AEE094E9-DBC5-42E8-90CF-B5D053A75DCA";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		598CF3321939B69300FEF268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nirnay Bansal (2N7T954T7P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nirnay Bansal (2N7T954T7P)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "AEE094E9-DBC5-42E8-90CF-B5D053A75DCA";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598CF3341939B69300FEF268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nirnay Bansal (2N7T954T7P)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyFinderDemo/MoneyFinderDemo-Prefix.pch";
+				INFOPLIST_FILE = "MoneyFinderDemo/MoneyFinderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AEE094E9-DBC5-42E8-90CF-B5D053A75DCA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		598CF3351939B69300FEF268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nirnay Bansal (2N7T954T7P)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyFinderDemo/MoneyFinderDemo-Prefix.pch";
+				INFOPLIST_FILE = "MoneyFinderDemo/MoneyFinderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AEE094E9-DBC5-42E8-90CF-B5D053A75DCA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		598CF3371939B69300FEF268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoneyFinderDemo.app/MoneyFinderDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyFinderDemo/MoneyFinderDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MoneyFinderDemoTests/MoneyFinderDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		598CF3381939B69300FEF268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoneyFinderDemo.app/MoneyFinderDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyFinderDemo/MoneyFinderDemo-Prefix.pch";
+				INFOPLIST_FILE = "MoneyFinderDemoTests/MoneyFinderDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598CF3021939B69300FEF268 /* Build configuration list for PBXProject "MoneyFinderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598CF3311939B69300FEF268 /* Debug */,
+				598CF3321939B69300FEF268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598CF3331939B69300FEF268 /* Build configuration list for PBXNativeTarget "MoneyFinderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598CF3341939B69300FEF268 /* Debug */,
+				598CF3351939B69300FEF268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598CF3361939B69300FEF268 /* Build configuration list for PBXNativeTarget "MoneyFinderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598CF3371939B69300FEF268 /* Debug */,
+				598CF3381939B69300FEF268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598CF2FF1939B69300FEF268 /* Project object */;
+}
